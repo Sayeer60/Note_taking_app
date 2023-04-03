@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>
+        note
+    </title>
+</head>
+<body style="background-color: blanchedalmond;text-align: center;">
+    <h1>
+        Notes
+    </h1>
+    <ul>
+        {% for note in notes%}
+            <li>
+                {{ note }}
+            </li>
+        {% endfor %}
+        </ul>
+        
+        <button onclick="history.back()" style="color:red;">
+            Return to Homepage
+        </button>
+            
+</body>
+</html>
